@@ -1,0 +1,148 @@
+.wrap {
+    position: relative;
+    height: 100%;
+}
+div {
+    display: block;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,helvetica,"Apple SD Gothic Neo",sans-serif;
+    font-size: 1rem;
+}
+/* 헤더 네이버 로고 */
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#header .h_logo {
+    display: block;
+    margin: 775px;
+    width: 240px;
+    height: 31px;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 165px;
+    color: transparent;
+    font-size: 0;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    margin-left: 870px;
+}
+.find_wrap .title_wrap {
+    text-align: center;
+}
+.find_wrap .title_wrap .title {
+    font-weight: 600;
+    color: #1e1e23;
+}
+.title{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -.33px;
+    margin-left: 765px;
+    margin-top: 10px;
+}
+/* 아이디 입력 박스 */
+.input_row {
+    position: relative;
+    display: block;
+    padding: 16px 17px 14px 50px;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 5%);
+    border: solid 1px #bbbbbd;
+    background-color: #fff;
+    box-sizing: border-box;
+    text-align: left;
+    width: 475px;
+    margin-left: 715px;
+}
+.input_row .icon_name.on {
+    background-position: -32px -32px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.input_row .bullet_delete, .input_row .icon_name, .input_row .icon_name.on {
+    background-image: url(https://ssl.pstatic.net/static/nid/identify/m_sp_01_idpw_fdd53d03.png);
+    background-size: 82px 62px;
+}
+.input_row .icon_name {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+.input_name {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -.8px;
+    color: #303038;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+/* 다음 버튼 */
+.btn_check {
+    display: block;
+    width: 25%;
+    margin-top: 14px;
+    margin-left: 715px;
+    padding: 15px 0 16px;
+    border-radius: 6px;
+    border: solid 1px rgba(0,0,0,.05);
+    background-color: #09aa5c;
+}
+button {
+    cursor: pointer;
+    appearance: none;
+    outline: 0;
+    text-decoration: none;
+    background: 0 0;
+    margin: 0
+}
+.btn_check .text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+/* 하단 부분 */
+.link_wrap {
+    margin-top: 40px;
+    text-align: center;
+}
+.link_wrap .text {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.5px;
+    color: #929294;
+}
+.link_wrap .text .link {
+    display: inline-block;
+    padding-left: 5px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer_list .footer_logo {
+    display: inline-block;
+    background-position: 0 -58px;
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 11px;
+    background-image: url(https://ssl.pstatic.net/static/nid/identify/m_sp_00_common_347a7059.png);
+    background-size: 155px 89px;
+    cursor: pointer;
+}
+.footer_list .footer_text {
+    font-size: 13px;
+    letter-spacing: -.5px;
+    color: rgba(0,0,0,.6);
+    white-space: nowrap;
+    word-break: keep-all;
+    cursor: pointer;
+}

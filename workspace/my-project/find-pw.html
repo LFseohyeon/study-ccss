@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비밀번호 찾기 : 네이버</title>
+    <link rel="stylesheet" href="find-pw.css">
+</head>
+<body>
+    <!-- 헤더 네이버 로고 -->
+    <div id="header" class="join_membership" role="banner">
+        <h1><a href="http://www.naver.com" class="h_logo"></a></h1>
+    </div>
+    <!-- 로고 밑 안내글씨 -->
+    <div class="title_wrap">
+        <h2 class="title">
+            비밀번호를 찾고자하는 아이디를 입력해주세요.
+        </h2>
+    </div>
+    <!-- 아이디 입력 박스 -->
+    <div id="idInputRow" class="input_row">
+        <span id="idIcon" class="icon_name"><span class="blind">아이디</span></span>
+        <input type="text" placeholder="네이버 아이디 또는 단체 아이디" id="idInput" class="input_name" name="userId" maxlength="40">
+    </div>
+    <!-- 다음 버튼 -->
+    <button type="button" class="btn_check" onclick="checkIdAndSubmit();"><span class="text">다음</span></button>
+    <!-- 하단 부분 -->
+    <div class="link_wrap">
+        <span class="text">
+            아이디가 기억나지 않는다면? <a href="javascript:;" class="link" onclick="idInquiry();"><div class="txt">아이디 찾기</div></a>
+        </span>
+    </div>
+    <footer class="footer" role="contentinfo">
+        <div class="footer_inner">
+            <ul class="footer_list">
+                <li><a href="https://www.navercorp.com/" target="_blank" class="footer_item"><div class="footer_logo"></div></a></li>
+                <li><a href="https://help.naver.com/support/alias/membership/p.membership/p.membership_26.naver" target="_blank" class="footer_item"><div class="footer_text">회원정보 고객센터</div></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

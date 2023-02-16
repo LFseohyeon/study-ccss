@@ -1,0 +1,38 @@
+/* 헤더 로그인 로그 */
+.login-page{
+    padding: 5rem 0;
+}
+@media (max-width: 991.98px){
+.login-page{
+    background-color: #fff;
+    padding-top: 2.5rem;
+}
+}
+@media (max-width: 991.98px){
+.login-page h2{
+    font-size: 1.75rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+}
+.login-page h2{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+    font-size: 2.125rem;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-top: 0;
+    font-family: Noto Sans KR,Malgun Gothic,-apple-system,Segoe UI,Roboto,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+/* ------------------------------------------------------------- */
+/* 중간 부분 여백 */
+.middle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
